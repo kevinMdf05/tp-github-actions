@@ -4,7 +4,9 @@
   "description": "Ce repository est un TP sur les GitHub Actions et le CI/CD.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node server.js",
+    "cy:run": "cypress run"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,11 @@
   },
   "homepage": "https://github.com/kevinMdf05/tp-github-actions#readme",
   "devDependencies": {
-    "cypress": "^15.13.0"
+    "cypress": "^15.13.0",
+    "jest": "^30.3.0",
+    "supertest": "^7.2.2"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
