@@ -23,7 +23,8 @@
   "devDependencies": {
     "cypress": "^15.13.0",
     "jest": "^30.3.0",
-    "supertest": "^7.2.2"
+    "supertest": "^7.2.2",
+    "wait-on": "^9.0.4"
   },
   "dependencies": {
     "express": "^5.2.1"
